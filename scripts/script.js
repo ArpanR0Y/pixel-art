@@ -1,6 +1,6 @@
 //Main
 const slider = document.querySelector(".slider");
-const value = document.querySelector("#value");
+const value = document.querySelector(".value");
 const displayValue = document.createElement('div');
 
 let drawing = false;
