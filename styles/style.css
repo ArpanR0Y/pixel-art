@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+html {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 750;
+  color: black;
+}
+
+body {
+  background-image: url("/styles/images/topography.svg"),
+    linear-gradient(110deg, #f93d669a, #6d47d9);
+}
+
+.text {
+  font-size: 14px;
+}
+
+.sub-text {
+  font-size: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 100px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  height: 25px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+}
+
+.clear {
+  background-image: linear-gradient(
+    to right,
+    #29323c,
+    #485563,
+    #2b5876,
+    #4e4376
+  );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.clear:focus {
+  outline: none;
+}
+
+.clear:hover {
+  background-position: 100% 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.slider {
+  -webkit-appearance: none;
+  background: #29323c;
+  border-radius: 5px;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) 
+and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  background: #ffc600;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  background: #ffc600;
+  cursor: pointer;
+}
+
+.slider:focus {
+  outline: none;
+}
+
+.grid {
+  display: grid;
+  padding: 4px;
+  width: 450px;
+  height: 450px;
+}
+
+.grid-cell {
+  border: 1px solid black;
+}
+
+.ink {
+  background-color: black;
+}
