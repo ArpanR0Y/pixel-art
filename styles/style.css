@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-image: url("/styles/images/topography.svg"),
+  background-image: url("/pixel-art/styles/images/topography.svg"),
     linear-gradient(110deg, #f93d669a, #6d47d9);
 }
 
